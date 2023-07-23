@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Rundeck Apis
-  description: |
-   Rundeck is an automation platform
+  description: Rundeck is an automation platform
   links:
     - title: Website
       url: http://rundeck.com
