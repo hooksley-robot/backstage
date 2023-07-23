@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Rundeck Apis
-  description: Rundeck is an automation platform
+  name: rundeck
+  description: |
+    Rundeck is a platform to orchestrate and build automation
   links:
     - title: Website
-      url: http://rundeck.com
+      url: http://backstage.io
     - title: Documentation
-      url: https://docs.rundeck.com
+      url: https://backstage.io/docs
     - title: Storybook
       url: https://backstage.io/storybook
     - title: Discord Chat
@@ -18,5 +19,4 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: library
-  owner: PagerDuty
-  lifecycle: experimental
+  owner: CNCF
